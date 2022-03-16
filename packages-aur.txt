@@ -1,0 +1,6 @@
+brave-bin
+visual-studio-code-bin
+minecraft-launcher
+xdman
+
+
