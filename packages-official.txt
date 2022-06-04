@@ -16,8 +16,9 @@ picom
 pulseaudio-bluetooth
 terminus-font
 ttf-hack
+ttf-dejavu
 ttf-inconsolata
-xbindkeys
+sxhkd
 xclip
 xorg
 xorg-xinit
@@ -64,3 +65,6 @@ ntfs-3g
 dosfstools
 unrar
 p7zip
+xf86-video-ati
+mesa
+xf86-video-intel

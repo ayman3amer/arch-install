@@ -2,5 +2,5 @@ brave-bin
 visual-studio-code-bin
 minecraft-launcher
 xdman
-
-
+yay-bin
+i3lock-color
