@@ -26,7 +26,7 @@ echo "      Driver \"libinput\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 echo "      MatchIsTouchpad \"on\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 echo "      Option \"Tapping\" \"on\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 echo "      Option \"NaturalScrolling\" \"true\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
-echo "      Option \"AccelSpeed\" \".08\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
+echo "      Option \"AccelSpeed\" \".8\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 echo "      Option \"DisableWhileTyping\" \"false\"" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 echo "EndSection" >> /etc/X11/xorg.conf.d/30-touchpad.conf
 

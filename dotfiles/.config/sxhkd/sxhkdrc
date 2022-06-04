@@ -1,0 +1,53 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	alacritty
+
+# program launcher
+super + d
+	dmenu_run
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# lock screen
+super + l
+	betterlockscreen --off 1 -l
+
+# browser
+super + b
+	 brave
+
+# pcmanfn
+super + p
+	pcmanfm
+
+super + r
+	alacritty -e ranger
+
+# media keys
+
+XF86AudioMute
+	pamixer -t; kill -44 $(pidof dwmblocks)
+XF86AudioRaiseVolume
+	pamixer --allow-boost -i 5; kill -44 $(pidof dwmblocks)
+XF86AudioLowerVolume
+	pamixer --allow-boost -d 5; kill -44 $(pidof dwmblocks)
+XF86AudioPrev
+	playerctl previous
+XF86AudioNext
+	playerctl next
+XF86AudioPause
+	playerctl play-pause
+XF86AudioPlay
+	playerctl play-pause
+XF86TouchpadToggle
+	(synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient TouchpadOff=1
+XF86MonBrightnessUp
+	xbacklight -inc 10
+XF86MonBrightnessDown
+	xbacklight -dec 10
