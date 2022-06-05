@@ -9,6 +9,7 @@ fi
 
 systemctl enable NetworkManager
 systemctl enable bluetooth
+systemctl enable tlp.service
 timedatectl set-ntp true
 
 localectl set-locale LANG=en_US.UTF-8

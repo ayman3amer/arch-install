@@ -2,3 +2,5 @@ brave-bin
 minecraft-launcher
 xdman
 yay-bin
+mpd-notification
+mpd-mpris

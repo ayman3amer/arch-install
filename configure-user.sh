@@ -15,7 +15,8 @@ mkdir -p \
   ${HOME}/.config/mpd \
   ${HOME}/.config/ncmpcpp \
   ${HOME}/.config/shell \
-  ${HOME}/.config/sxhkd 
+  ${HOME}/.config/sxhkd \
+  ${HOME}/.config/dunst
 
 cp -fvr \
   ./dotfiles/.vimrc \
@@ -35,6 +36,9 @@ cp -vr ./dotfiles/.config/shell/bash_history ${HOME}/.config/shell/
 cp -vr ./dotfiles/.config/shell/zsh_history ${HOME}/.config/shell/
 cp -vr ./dotfiles/.config/sxhkd/sxhkdrc ${HOME}/.config/sxhkd/
 cp -vr ./dotfiles/.config/betterlockscreenrc ${HOME}/.config/
+cp -vr ./dotfiles/.config/dunst/dunstrc ${HOME}/.config/dunst/
+cp -vr ./dotfiles/.config/mpd-notification.conf ${HOME}/.config/
+
 
 
 echo "installing vim-plug"
@@ -45,3 +49,8 @@ if [ ! -e ${HOME}/.vim/autoload/plug.vim ]; then
 fi
 # change shell to zsh
 chsh -s /usr/bin/zsh
+
+# enable mpd services
+systemctl --user enable mpd.service
+systemctl --user enable mpd-notification.service
+systemctl --user enable mpd-mpris.service
