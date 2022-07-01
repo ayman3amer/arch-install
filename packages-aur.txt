@@ -4,3 +4,6 @@ xdman
 yay-bin
 mpd-notification
 mpd-mpris
+ttf-material-icons-git
+ttf-icomoon-feather
+nerd-fonts-complete

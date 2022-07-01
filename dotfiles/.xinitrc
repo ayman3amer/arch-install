@@ -1,4 +1,1 @@
-sxhkd &
-./.fehbg &
-dwmblocks &
-exec dwm
+exec bspwm

@@ -94,6 +94,10 @@ pipewire-pulse
 pipewire-jack
 playerctl
 pamixer
-ttf-font-awesome
-
-
+nitrogen
+lxsession
+rofi
+bspwm
+mate-power-manager
+code
+i3lock

@@ -142,3 +142,230 @@ rm config.h
 sudo make clean install
 ncmpcpp 
 sudo make clean install
+startx
+vim .xinitrc
+startx
+CCCCwwwwwwwwwwwwWWWwwCWWWwwwwwww
+reboot
+vim .config/sxhkd/sxhkdrc
+cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/sxhkdrc
+vim .config/sxhkd/sxhkdrc
+startx
+reboot
+kill x
+kill startx
+kill xorg
+kill X
+kill X11
+killall X11
+killall startx
+killall x
+killall X11
+killall Xorg
+man bspwm
+killall Xorg
+bspc config single_monocle      true
+bspc config single_monocle true
+ls
+killall Xorg
+p -Sy polybar
+mkdir .config/polybar
+cp /etc/polybar/config.ini .config/polybar/config.ini
+p -Sy mate-power-manager
+startx
+startx
+startx
+startx
+reboot
+$HOME/.config/polybar/launch.sh
+startx
+reboot
+startx
+reboot
+reboot
+cp /usr/share/doc/alacritty/example/alacritty.yml .config/alacritty/alacritty.yml
+git clone https://github.com/dracula/rofi\
+
+cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi\
+
+code .
+p -Sy code
+code .
+ls
+ls
+ls
+yay dracula
+yay dracula
+yay dracula
+ncmpcpp 
+ncmpcpp 
+mpd
+mpd
+mpd &
+p -Sy neofetch
+neofetch
+sadsadsadsadls
+ls
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+alsamixer
+fc-list
+fc-list | grep 'awesome'
+fc-list | grep awesome
+fc-list
+p -Sy ttf-joypixels\
+
+p -Sy ttf-joypixels ttf-font-awesome\
+
+fc-list
+fc-list | grep awesome
+fc-list | grep aw
+fc-list | grep a
+fc-list | grep font
+fc-list
+fc-list | grep Font
+fc-list | grep hack
+fc-list | grep Hack
+polybar
+polybar
+polybar
+polybar
+polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+p -Sy nodejs-material-design-icons\
+
+ncmpcpp 
+systemctl --user enable mpd
+ncmpcpp
+pkill -USR1 polybar
+polybar
+polybar
+alsamixer
+yay -Sy ttf-icomoon-feather material-icons-git nerd-fonts-complete
+yay -Sy ttf-material-icons-git nerd-fonts-complete ttf-icomoon-feather 
+yay -Sy ttf-material-icons-git nerd-fonts-complete ttf-icomoon-feather 
+yay -Sy ttf-material-icons-git nerd-fonts-complete ttf-icomoon-feather 
+yay -Sy nerd-fonts-complete ttf-icomoon-feather 
+yay -Qe
+pkill -USR1 polybar
+ploybar
+polybar
+ploybar
+polybar
+polybar
+.config/polybar/scripts/weather/launch.sh 
+.config/polybar/scripts/weather/launch.sh 
+polybar
+polybar
+killall polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+pkill -USR1 polybar
+p -Sy i3lock
+p -Sy xxs-lock
+p -Sy xss-lock
+i3lock
+i3lock -i ~/Pictures/arch.png
+i3lock -i '~/Pictures/arch.png'
+i3lock -i ~/Pictures/arch.png
+i3lock -i ~/Pictures/a.png
+xss-lock --transfer-sleep-lock -- i3lock -i ~/Pictures/a.png
+xss-lock --transfer-sleep-lock -- i3lock -i ~/Pictures/a.png &
+lxlock
+git clone https://github.com/Murzchnvok/polybar-collection.git\
+
+git clone https://github.com/Murzchnvok/polybar-collection/tree/master/themes
+cd ..
+code .
+p -Sy pamixer
+p -Sy pavucontrol
+pavucontrol
+pamixer
+pamixer
+ls
+git clone https://github.com/Murzchnvok/rofi-collection.git
+i3lock --time-str="%H:%M:%S"
+i3lock -h
+i3lock -help
+code .
+yay -Qe
+ncmpcpp
+startx
+cd .config/polybar/
+./launch.sh
+./launch.sh
+startx
+.config/bspwm/bspwmrc
+code .
+fing update
+find update
+find update-cofig
+find update-config
+find 'update-config'
+find 'up
+find up
+find u
+find config
+nmtui-connect
+nmtui-connect
+nmtui-connect
+nmtui-connect
+nmtui-connect
+neofetch
+xsetroot -cursor_name left_ptr &
+p -S xorg-xsetroot
+nmtui-connect
+nmtui-connect
+nmtui-connect
+./update-config.sh
+chmod +x./update-config.sh
+chmod +x ./update-config.sh
+./update-config.sh
+./update-config.sh
+git config --global user.name "ayman3amer"
+git config --global user.email "ayman.3amer114@outlook.com"
+git push
+git push
+cd resources/arch-install
+git push
+git pull
+cd ..
+git pull
+git clone https://github.com/ayman3amer/arch-install.git
+cd arch-install
+code .

@@ -16,7 +16,11 @@ mkdir -p \
   ${HOME}/.config/ncmpcpp \
   ${HOME}/.config/shell \
   ${HOME}/.config/sxhkd \
-  ${HOME}/.config/dunst
+  ${HOME}/.config/bspwm \
+  ${HOME}/.config/dunst \
+  ${HOME}/.config/polybar \
+  ${HOME}/.config/rofi \
+
 
 cp -fvr \
   ./dotfiles/.vimrc \
@@ -35,9 +39,11 @@ cp -vr ./dotfiles/.config/shell/aliases ${HOME}/.config/shell/
 cp -vr ./dotfiles/.config/shell/bash_history ${HOME}/.config/shell/
 cp -vr ./dotfiles/.config/shell/zsh_history ${HOME}/.config/shell/
 cp -vr ./dotfiles/.config/sxhkd/sxhkdrc ${HOME}/.config/sxhkd/
-cp -vr ./dotfiles/.config/betterlockscreenrc ${HOME}/.config/
+cp -vr ./dotfiles/.config/bspwm/bspwmrc ${HOME}/.config/bspwm/
 cp -vr ./dotfiles/.config/dunst/dunstrc ${HOME}/.config/dunst/
-cp -vr ./dotfiles/.config/mpd-notification.conf ${HOME}/.config/
+cp -vr ./dotfiles/.config/picom/picom.conf ${HOME}/.config/picom/
+cp -vr ./dotfiles/.config/polybar/* ${HOME}/.config/polybar/
+cp -vr ./dotfiles/.config/rofi/config.rasi ${HOME}/.config/rofi/
 
 
 
