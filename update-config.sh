@@ -14,7 +14,6 @@ mkdir -p \
     ./dotfiles/.config/rofi     \
 
  
- 
 cp -frv \
 	${HOME}/.xprofile \
 	${HOME}/.vimrc \
@@ -35,3 +34,4 @@ cp -vr ${HOME}/.config/dunst/dunstrc ./dotfiles/.config/dunst/
 cp -vr ${HOME}/.config/picom/picom.conf ./dotfiles/.config/picom/
 cp -vr ${HOME}/.config/polybar/* ./dotfiles/.config/polybar/
 cp -vr ${HOME}/.config/rofi/config.rasi ./dotfiles/.config/rofi/
+

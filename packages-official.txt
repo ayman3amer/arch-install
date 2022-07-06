@@ -99,5 +99,4 @@ lxsession
 rofi
 bspwm
 mate-power-manager
-code
 i3lock
