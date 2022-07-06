@@ -13,7 +13,8 @@ mkdir -p \
     ./dotfiles/.config/polybar  \
     ./dotfiles/.config/rofi     \
 
-
+ 
+ 
 cp -frv \
 	${HOME}/.xprofile \
 	${HOME}/.vimrc \
