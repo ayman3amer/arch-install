@@ -8,8 +8,6 @@ fi
 # running commands to configure the system
 
 systemctl enable NetworkManager
-systemctl enable bluetooth
-systemctl enable tlp.service
 timedatectl set-ntp true
 
 localectl set-locale LANG=en_US.UTF-8
@@ -18,6 +16,9 @@ localectl set-locale LANG=en_US.UTF-8
 rm /etc/asound.conf
 echo "defaults.pcm.card 1" >> /etc/asound.conf
 echo "defaults.ctl.card 1" >> /etc/asound.conf
+
+# pacman colors
+sed -i 's/#Color/Color/' /etc/pacman.conf
 
 # touchpad
 rm /etc/X11/xorg.conf.d/30-touchpad.conf

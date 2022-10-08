@@ -2,8 +2,10 @@ brave-bin
 minecraft-launcher
 xdman
 yay-bin
+nerd-fonts-jetbrains-mono
 mpd-notification
 mpd-mpris
-ttf-material-icons-git
-ttf-icomoon-feather
-nerd-fonts-complete
+code-features
+code-marketplace
+code-icons
+ffmpeg-audio-thumbnailer
