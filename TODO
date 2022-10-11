@@ -1,6 +1,5 @@
 urxvt bidi auto install
 install brave extention
-alacrity config
 pcmanfm config
 script deploy
 
@@ -8,4 +7,13 @@ zsh
 tlp
 grub auto select
 auto login 
-auto startx
+
+dwm
+=======
+autostart
+center
+restart
+gaps
+scratchpad
+swallow
+shiftview

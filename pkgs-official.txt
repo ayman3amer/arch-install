@@ -91,9 +91,7 @@ lxsession
 mate-power-manager
 gucharmap
 xorg-server
-volumeicon
 redshift
-volumeicon
 vidcutter
 gnome-epub-thumbnailer
 webp-pixbuf-loader
@@ -101,3 +99,5 @@ qutebrowser
 python-mutagen
 discord
 github-cli
+ueberzug
+w3m
