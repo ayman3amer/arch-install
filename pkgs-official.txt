@@ -100,3 +100,4 @@ webp-pixbuf-loader
 qutebrowser
 python-mutagen
 discord
+github-cli
