@@ -12,13 +12,15 @@ timedatectl set-ntp true
 
 localectl set-locale LANG=en_US.UTF-8
 
+
+# pacman colors
+sed -i 's/#Color/Color/' /etc/pacman.conf
+
 # configure alsa
 rm /etc/asound.conf
 echo "defaults.pcm.card 1" >> /etc/asound.conf
 echo "defaults.ctl.card 1" >> /etc/asound.conf
 
-# pacman colors
-sed -i 's/#Color/Color/' /etc/pacman.conf
 
 # touchpad
 rm /etc/X11/xorg.conf.d/30-touchpad.conf
