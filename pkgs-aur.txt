@@ -3,9 +3,6 @@ minecraft-launcher
 xdman
 yay-bin
 nerd-fonts-jetbrains-mono
-mpd-notification
-mpd-mpris
-code-features
-code-marketplace
-code-icons
+mpdris2
+visual-studio-code-bin
 ffmpeg-audio-thumbnailer

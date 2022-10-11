@@ -89,7 +89,6 @@ playerctl
 pamixer
 lxsession
 mate-power-manager
-code
 gucharmap
 xorg-server
 volumeicon
