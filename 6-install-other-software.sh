@@ -12,3 +12,10 @@ git clone https://github.com/torrinfail/dwmblocks.git ~/resources/dwmblocks
 cp /home/ayman/resources/github/dotfiles/dwm/.local/share/dwm/blocks.h ~/resources/dwmblocks/
 sudo make clean install
 
+# urxvt bidi
+
+
+# brave extention
+
+
+# vscode extention
