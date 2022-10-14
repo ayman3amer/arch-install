@@ -103,3 +103,10 @@ ueberzug
 w3m
 wmname
 rofi
+klavaro
+xclip
+adwaita-qt6
+adwaita-qt5
+qt5ct
+virtualbox
+virtualbox-host-modules-arch

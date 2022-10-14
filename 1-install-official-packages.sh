@@ -9,5 +9,5 @@ echo "=====> downloading official packages"
 echo
 # requires sudo
 # --noconfirm is used to select all packages from groups
-pacman -Sy --needed $(<pkgs-official.txt)
+pacman -Sy --needed $(<backup/pkgs-official.txt)
 

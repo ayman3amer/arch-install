@@ -13,4 +13,4 @@ do
     git clone https://aur.archlinux.org/${AUR_PKG}.git
     cd ${AUR_PKG} && makepkg -si --noconfirm && cd $TEMP_DIR
   fi
-done < pkgs-aur.txt
+done < backup/pkgs-aur.txt

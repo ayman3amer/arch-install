@@ -6,3 +6,4 @@ nerd-fonts-jetbrains-mono
 mpdris2
 visual-studio-code-bin
 ffmpeg-audio-thumbnailer
+devour

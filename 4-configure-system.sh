@@ -17,9 +17,9 @@ localectl set-locale LANG=en_US.UTF-8
 sed -i 's/#Color/Color/' /etc/pacman.conf
 
 # configure alsa
-rm /etc/asound.conf
-echo "defaults.pcm.card 1" >> /etc/asound.conf
-echo "defaults.ctl.card 1" >> /etc/asound.conf
+#rm /etc/asound.conf
+#echo "defaults.pcm.card 1" >> /etc/asound.conf
+#echo "defaults.ctl.card 1" >> /etc/asound.conf
 
 
 # touchpad

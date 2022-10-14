@@ -19,13 +19,13 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # change shell to zsh
 chsh -s $(which zsh)
-
+# git
 git config --global user.name "ayman"
 git config --global user.email "ayman.3amer96@gmail.com"
 
 # deploy dotfiles
-mkdir -vP ~/resources/github/
-git clone "https://github.com/ayman3amer/dotfiles.git" ~/resources/github/dotfiles
 cd ~/resources/github/dotfiles
 stow -vt ~ */
 
+# github auth (need browser)
+gh auth login
