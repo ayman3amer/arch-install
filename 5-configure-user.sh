@@ -25,7 +25,7 @@ git config --global user.email "ayman.3amer96@gmail.com"
 
 # deploy dotfiles
 cd ~/resources/github/dotfiles
-stow -vt ~ */
+stow -vt ~
 
 # github auth (need browser)
 gh auth login
